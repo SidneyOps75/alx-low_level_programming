@@ -1,21 +1,15 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
- * main - main block
- * Description: Get a random number and check its last digit, compare it with 5
- * Return: 0
- */
+*main - Printthe alphabetic
+* a program that prints the alphabet in lowercase, followed by a new line.
+*Return: Always (success)
+*/
 int main(void)
 {
-char c = a;
+char c;
 
-while (c <= z)
-{
+for (c = 'a'; c <= 'z'; c++)
 putchar(c);
-c++;
-}
-
-putchar(n);
+putchar('\n');
 return (0);
 }
-
